@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 
+  <title>ເເບບຟອມ</title>
+  <script>
+    function s() {
+      var a = document.getElementById("a").value;
+      var b= document.getElementById("b").value;
+      var c= document.getElementById("c").value;
+
+
+      if (a === "" ) {
+        alert("ກະລຸນາປ້ອນຊື່ສິ້ນຄ້າກ່ອນ");
+        return false;
+      }
+      if (b === "" ) {
+        alert("ກະລຸນາປ້ອນລາຄາສິ້ນຄ້າທີ່ທ່ານຕ້ອງການຊື");
+        return false;
+      }
+      if (c === "" ) {
+        alert("ກະລຸນາປ້ອນເລກບັນຊີຂອງທ່ານກ່ອນ");
+        return false;
+      }
+     
+      alert("ສົງຂໍ້ມູນສຳເລັດ");
+ return true;
+    }
+  
+  </script>
+</head><style>input{
+                              font-family: phetsarath ot;
+}
+button{
+                              font-family: phetsarath ot;
+}</style>
+<body  style="background: linear-gradient(135deg,rgb(2, 119, 228),rgb(252, 249, 249),rgb(249, 13, 13));font-family: phetsarath ot;">
+                              
+                              
+  
+  <form onsubmit="return s()">
+                              <center> <div style="color: black;font-family: phetsarath ot;">
+                                                            <table border="0">
+                                                            <h1>ກະລຸນາປ້ອນ</h1>
+                                                            <h2>ຂໍ້ມູນຂອງທ່ານຕາມທີ່ເຮົາກໍານົດ
+                                                            </h2>
+                                                           <tr>
+                                                                <th><label >ຊື່ຂອງສິ້ນຄ້າ:</label></th>
+                                                                <td><input type="text" placeholder="ປ້ອນຊື່ສິ້ນຄ້າໃສ່" id="a"></td></tr><br> 
+                                                               <tr> <th><label >ປ້ອນລາຄາສິ້ນຄ້າທີ່ທ່ານຕ້ອງການຊື:</label></th>
+                                                                <td><input type="text" placeholder="xxx xxx xxx ກີບ" id="b"></td><br></tr>
+                                                                <th><label >ປ້ອນເລກບັນຊີທະນາຄານຂອງທານ:</label></th>
+                                                                <td><input type="text" placeholder="xxx xxx xxx xxx" id="c"></td></tr><br><br>
+                                                                <th><label >ຕ້ອງການສຳລະຜ່ານທະນາຄານໃດຂອງພວກເຮົາ:</label></th>
+                                                                <td><button style="background-color: red;"><a href="ລິ້ງໃສທະນາຄານການຄ້າ.html" style="color:white;font-weight: bolder;">BCEL One</a></button> or
+                                                                                          <button style="background-color: blue;"> <a href="ລິງໃສLDB.html"style="color:white;font-weight: bolder;">LGDB</a></button></td>
+                                                            <tr>
+                                                
+                                                               <td colspan="6" align="center">
+                                                                                          <input type="submit" value="ສົງຂໍ້ມູນ" style="background-color: aqua;"> <input type="reset" value="ປ້ອນໃໝ່" style="background-color: greenyellow;"></td>
+                                                            </tr>
+                                                            </center>
+                                                            </table></div>
+                              <button ><a href="index.html">↩ກັບຄືນ</a></button>
+
+  </form>
+</body>
+</html>

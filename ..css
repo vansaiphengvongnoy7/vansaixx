@@ -1,0 +1,114 @@
+.dropdown a:hover{background-color: aqua;
+                              
+}   
+h1{
+                              color:black;
+                              font-size: 20px;
+}
+h2{
+                              animation: a 2s infinite;
+                              font-size: 25px;
+                              margin-left: 90%;
+                              color: black;
+                              
+}
+@keyframes a{
+0%{transform:scale(1);}
+50%{transform:scale(1.25);}
+100%{transform:scale(1);}
+}
+nav{border: 5px inset rgb(98, 105, 212);
+  animation: o 0.7s infinite; }
+@keyframes o{
+  25%{
+      color: red;          
+      box-shadow: 0-10px 20px black;  
+      
+  }
+  50%{ 
+      color: aliceblue;  
+      box-shadow: 10px 0 20px green;
+  }
+  75%{
+      color:blue;           
+      box-shadow: 0 10px 20px yellow;
+  }
+  100%{
+      color: aliceblue;
+      box-shadow: -10px 0 20px ;
+  }
+}    
+h2:hover{color: red;}
+.o{
+                              margin-left: 6%;
+}
+.i{
+                              margin-left: 4%;
+}
+.h {
+                           border-radius: 50%;
+                           object-fit: cover;
+                           border: 5px solid #0dcaf0;
+                              transform: rotate(150deg);
+                            animation: a 5s linear infinite;
+}
+@keyframes a{
+                              from{ transform: rotate(0deg);}
+                              to { transform: rotate(360deg);}
+}
+.p{
+      
+                              border-radius: 50%;
+                              object-fit: cover;
+                         
+                                 transform: rotate(150deg);
+                               animation: p 8s linear infinite;
+                               margin-left: 12%; 
+                                   
+                                          
+}
+@keyframes p{
+                              from{ transform: rotate(0deg);}
+                              to { transform: rotate(360deg);}
+
+}
+
+
+
+.w{
+                              height: 200px;
+                              width: 180px;
+}
+h7{
+                              font-size: 70px;
+                              font-weight:bold;
+                      
+                             
+                              -webkit-text-stroke: 5px red;
+                              margin-left: 50%;
+                              animation: b 0.5s infinite;
+}
+@keyframes b{
+  25%{  -webkit-text-stroke: 5px red;}
+  50%{  -webkit-text-stroke: 5px green;}
+  75%{  -webkit-text-stroke: 5px black;}
+  100%{  -webkit-text-stroke: 5px blue;}
+}
+.r{
+                              border-radius: 50%;
+}
+.e{
+  margin-left: 40%;
+}
+.y{
+  background:linear-gradient(135deg,rgb(13,202,240),white,red);
+}
+p{
+  font-weight: bolder;
+}
+h1{
+  font-weight: bolder;
+}
+a{
+  font-weight: bolder;
+}
